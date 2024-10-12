@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         informationET = findViewById(R.id.infoET)
         checkBoxCB = findViewById(R.id.checkboxCB)
-        textTV = findViewById(R.id.infoET)
+        textTV = findViewById(R.id.textTV)
         checkBoxCB.setOnCheckedChangeListener {buttonView, isChecked ->
             if (checkBoxCB.isChecked) {
                 informationET.text.clear()
